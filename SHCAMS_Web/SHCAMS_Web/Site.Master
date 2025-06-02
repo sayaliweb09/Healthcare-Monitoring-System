@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SHCAMS_Web.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="loginDisplay">
+            <div class="title">
+                <h1>
+                     HEALTH CARE AND MONITORING SYSTEM</h1>
+            </div>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About Us" Value="About Us"/>
+                        <asp:MenuItem NavigateUrl="~/OrganizationDetails.aspx" Text="Emergency Services" Value="Emergency Services"></asp:MenuItem>
+                        <asp:MenuItem Text="Log In" Value="Log In">
+                            <asp:MenuItem NavigateUrl="~/frmAdminLogin.aspx" Text="Log In" Value="Log In"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/OrganizationRegistrationrequest.aspx" Text="Organization Registration Request" Value="Organization Registration Request"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/UserRegistration.aspx" Text="User Registration" Value="User Registration"></asp:MenuItem>
+                        </asp:MenuItem>
+                         <asp:MenuItem NavigateUrl="~/HospitalMap.aspx" Text="Hospital Map"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Publish Website in IIS\SHCAMSWeb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/ChangePassword.aspx.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/ChangePassword.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/Login.aspx.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/Login.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/Register.aspx.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/Register.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>01/09/2016 20:18:48</publishTime>
+    </File>
+    <File Include="Admin.Master">
+      <publishTime>02/15/2018 12:24:56</publishTime>
+    </File>
+    <File Include="Admin.Master.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Admin.Master.designer.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Admin/OrganizationRequestList.aspx">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Admin/OrganizationRequestList.aspx.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Admin/OrganizationRequestList.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Appointment.aspx">
+      <publishTime>03/04/2018 17:55:28</publishTime>
+    </File>
+    <File Include="Appointment.aspx.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Appointment.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="AppointmentList.aspx">
+      <publishTime>02/15/2018 18:17:35</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>03/04/2018 19:29:36</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>03/04/2018 19:29:36</publishTime>
+    </File>
+    <File Include="bin/CollegeDashboard.dll">
+      <publishTime>01/27/2018 22:19:42</publishTime>
+    </File>
+    <File Include="bin/CollegeDashboard.dll.config">
+      <publishTime>01/09/2016 20:18:48</publishTime>
+    </File>
+    <File Include="bin/CollegeDashboard.pdb">
+      <publishTime>01/27/2018 08:49:42</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.CrystalReports.Engine.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ClientDoc.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommLayer.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommonControls.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommonObjectModel.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.Controllers.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CubeDefModel.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.DataDefModel.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.DataSetConversion.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ObjectFactory.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.Prompting.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ReportDefModel.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.XmlSerialize.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportSource.dll">
+      <publishTime>06/15/2016 05:39:48</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Shared.dll">
+      <publishTime>06/15/2016 05:39:50</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Web.dll">
+      <publishTime>06/15/2016 05:39:50</publishTime>
+    </File>
+    <File Include="bin/GSTR Template/GSTR_1_Format_Excel.xlsx">
+      <publishTime>02/20/2018 14:47:51</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>02/21/2018 23:10:45</publishTime>
+    </File>
+    <File Include="bin/SHCAMS_Web.dll">
+      <publishTime>03/04/2018 19:29:34</publishTime>
+    </File>
+    <File Include="bin/SHCAMS_Web.dll.config">
+      <publishTime>01/28/2018 16:32:49</publishTime>
+    </File>
+    <File Include="bin/SHCAMS_Web.pdb">
+      <publishTime>02/21/2018 23:05:47</publishTime>
+    </File>
+    <File Include="bin/SmartHealthCareAndMonitoringSystem.dll">
+      <publishTime>02/09/2018 02:42:46</publishTime>
+    </File>
+    <File Include="bin/SmartHealthCareAndMonitoringSystem.pdb">
+      <publishTime>02/09/2018 02:42:46</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>07/07/2015 01:51:38</publishTime>
+    </File>
+    <File Include="bin/TestTemplate/BloodTest.xlsx">
+      <publishTime>02/20/2018 20:51:08</publishTime>
+    </File>
+    <File Include="bin/TestTemplate/UrineTest.xlsx">
+      <publishTime>03/04/2018 15:45:55</publishTime>
+    </File>
+    <File Include="Common/About.aspx">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Common/About.aspx.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Common/About.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Common/Default.aspx">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Common/Default.aspx.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Common/Default.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Common/frmAdminLogin.aspx">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Common/frmAdminLogin.aspx.cs">
+      <publishTime>02/14/2018 23:14:24</publishTime>
+    </File>
+    <File Include="Common/frmAdminLogin.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Common/OrganizationRegistrationrequest.aspx">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Common/OrganizationRegistrationrequest.aspx.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Common/OrganizationRegistrationrequest.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Common/SHCAMS.cs">
+      <publishTime>02/14/2018 23:09:59</publishTime>
+    </File>
+    <File Include="Common/UserRegistration.aspx">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Common/UserRegistration.aspx.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Common/UserRegistration.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="crystalrpt_demo.aspx">
+      <publishTime>02/20/2018 13:55:53</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="Department.Master">
+      <publishTime>02/15/2018 12:24:33</publishTime>
+    </File>
+    <File Include="Department.Master.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Department.Master.designer.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Department/AppointmentList.aspx">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Department/AppointmentList.aspx.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Department/AppointmentList.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="DepartmentManageTodaysStatus.aspx">
+      <publishTime>02/15/2018 19:55:32</publishTime>
+    </File>
+    <File Include="DepartmentManageTodaysStatus.aspx.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="DepartmentManageTodaysStatus.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="frmAdminLogin.aspx">
+      <publishTime>03/04/2018 19:05:03</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Global.asax.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="GSTR Template/GSTR_1_Format_Excel.xlsx">
+      <publishTime>02/20/2018 14:47:51</publishTime>
+    </File>
+    <File Include="images/++.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/--.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/backbutton_hover.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/background.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/Backword.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/bgr.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/body_bg.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/clear.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/cont.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/CONTINUE.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/cp_bg.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/cp_bottcorn.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/cp_butt.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/cp_imgabacus.jpeg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/cp_imgabacusold.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/cp_imgdice.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/cp_imgdiceold.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/cp_line.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/cp_nameband.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/cp_sqrred.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/Create-New-Account_Button.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/delete.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/find.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/Finish.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/Forward-icon.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/ft_butt.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/ft_sqrwhite.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/ft_valid1.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/ft_valid2.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/generate.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/images %284%29.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/images %285%29.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/InitialImage.png">
+      <publishTime>03/04/2018 13:52:47</publishTime>
+    </File>
+    <File Include="images/loading.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/LogIn.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/lp_arrow.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/lp_ashsqr.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/lp_box2bg.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/lp_boxcorn1.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/lp_boxcorn2.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/lp_boxcorn3.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/lp_boxcorn4.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/lp_imgclient.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/lp_imgpair.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/Next1.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/nextbutton_hover.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/noans.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/Notanswer.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/register-now-.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/rp_bg.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/rp_bottcorn.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/rp_topcorn.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/save-as.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/Save.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/SelectedButton.png">
+      <publishTime>03/04/2018 13:52:47</publishTime>
+    </File>
+    <File Include="images/shcams.JPG">
+      <publishTime>02/11/2018 22:02:57</publishTime>
+    </File>
+    <File Include="images/Sub.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/submit.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/tp_backgr.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/tp_backgr1.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/tp_logo.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/tp_pipe.gif">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/untitled.bmp">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/update.png">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/update1.png">
+      <publishTime>01/30/2016 01:26:12</publishTime>
+    </File>
+    <File Include="images/update_.jpg">
+      <publishTime>01/30/2016 01:26:10</publishTime>
+    </File>
+    <File Include="images/welcome.jpg">
+      <publishTime>01/30/2016 01:26:12</publishTime>
+    </File>
+    <File Include="images/welcomeold.jpeg">
+      <publishTime>01/30/2016 01:26:12</publishTime>
+    </File>
+    <File Include="Organization.Master">
+      <publishTime>02/15/2018 12:25:10</publishTime>
+    </File>
+    <File Include="Organization.Master.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Organization.Master.designer.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Organization/OrganizationDoctorRegistration.aspx">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Organization/OrganizationDoctorRegistration.aspx.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Organization/OrganizationDoctorRegistration.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Organization/OrganizationDoctorRegistrationList.aspx">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Organization/OrganizationDoctorRegistrationList.aspx.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="Organization/OrganizationDoctorRegistrationList.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="OrganizationDoctorRegistration.aspx">
+      <publishTime>03/04/2018 16:58:50</publishTime>
+    </File>
+    <File Include="OrganizationDoctorRegistrationList.aspx">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="OrganizationDoctorRegostration.aspx">
+      <publishTime>01/28/2018 00:20:08</publishTime>
+    </File>
+    <File Include="OrganizationDoctorRegostrationList.aspx">
+      <publishTime>01/28/2018 00:30:41</publishTime>
+    </File>
+    <File Include="OrganizationList.aspx">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="OrganizationList.aspx.cs">
+      <publishTime>02/14/2018 10:00:44</publishTime>
+    </File>
+    <File Include="OrganizationList.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="OrganizationLogIn.aspx">
+      <publishTime>01/28/2018 00:41:10</publishTime>
+    </File>
+    <File Include="OrganizationRegistrationrequest.aspx">
+      <publishTime>02/15/2018 20:32:36</publishTime>
+    </File>
+    <File Include="OrganizationRequestList.aspx">
+      <publishTime>02/14/2018 10:00:45</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/22/2018 12:42:16</publishTime>
+    </File>
+    <File Include="Patient.Master">
+      <publishTime>02/15/2018 12:25:24</publishTime>
+    </File>
+    <File Include="Patient.Master.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="Patient.Master.designer.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="PatientCheckAppointmentStatus.aspx">
+      <publishTime>02/15/2018 19:30:10</publishTime>
+    </File>
+    <File Include="PatientCheckAppointmentStatus.aspx.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="PatientCheckAppointmentStatus.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="PatientReport.aspx">
+      <publishTime>03/04/2018 19:16:05</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>03/04/2018 19:29:35</publishTime>
+    </File>
+    <File Include="Properties/AssemblyInfo.cs">
+      <publishTime>02/14/2018 10:00:46</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/api.pubxml">
+      <publishTime>02/15/2018 11:43:13</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/api.pubxml.user">
+      <publishTime>02/14/2018 10:06:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>01/09/2016 20:18:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>01/09/2016 20:18:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>01/09/2016 20:18:48</publishTime>
+    </File>
+    <File Include="SHCAMS_Web.csproj">
+      <publishTime>02/14/2018 10:13:47</publishTime>
+    </File>
+    <File Include="SHCAMS_Web.csproj.user">
+      <publishTime>02/14/2018 10:13:47</publishTime>
+    </File>
+    <File Include="SHCAMS_WebDataSet/BloodTestds.xsc">
+      <publishTime>02/20/2018 14:04:24</publishTime>
+    </File>
+    <File Include="SHCAMS_WebDataSet/BloodTestds.xss">
+      <publishTime>02/20/2018 14:04:24</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>02/15/2018 12:23:23</publishTime>
+    </File>
+    <File Include="Site.Master.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="Site.Master.designer.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>03/04/2018 13:54:45</publishTime>
+    </File>
+    <File Include="TestTemplate/BloodTest.xlsx">
+      <publishTime>02/20/2018 20:51:08</publishTime>
+    </File>
+    <File Include="TestTemplate/UrineTest.xlsx">
+      <publishTime>03/04/2018 15:45:55</publishTime>
+    </File>
+    <File Include="TodaysAppointmentList.aspx">
+      <publishTime>02/15/2018 20:55:46</publishTime>
+    </File>
+    <File Include="TodaysAppointmentList.aspx.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="TodaysAppointmentList.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="User/PatientReport.aspx">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="User/PatientReport.aspx.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="User/PatientReport.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="User/UserAppointmentRequest.aspx">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="User/UserAppointmentRequest.aspx.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="User/UserAppointmentRequest.aspx.designer.cs">
+      <publishTime>02/14/2018 10:00:43</publishTime>
+    </File>
+    <File Include="UserAppointmentRequest.aspx">
+      <publishTime>02/20/2018 13:53:54</publishTime>
+    </File>
+    <File Include="UserRegistration.aspx">
+      <publishTime>02/15/2018 20:31:05</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/04/2018 19:14:10</publishTime>
+    </File>
+    <File Include="Web.Debug.config">
+      <publishTime>01/09/2016 20:18:48</publishTime>
+    </File>
+    <File Include="Web.Release.config">
+      <publishTime>01/09/2016 20:18:48</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
